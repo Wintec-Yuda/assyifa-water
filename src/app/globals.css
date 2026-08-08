@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F7FBFB;
+  --foreground: #123A40;
+
+  --color-ink: #123A40;
+  --color-ink-soft: #3F6367;
+  --color-brand: #0E7C86;
+  --color-brand-dark: #0A5F67;
+  --color-tint: #DCEEF0;
+  --color-tint-soft: #EEF7F8;
+  --color-badge: #FFC94A;
+  --color-accent: #FF6B3D;
+  --color-wa: #25D366;
+  --color-wa-dark: #1DA851;
+  --color-paper: #F7FBFB;
+  --color-line: #C9E2E4;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-brand: var(--color-brand);
+  --color-brand-dark: var(--color-brand-dark);
+  --color-tint: var(--color-tint);
+  --color-tint-soft: var(--color-tint-soft);
+  --color-badge: var(--color-badge);
+  --color-accent: var(--color-accent);
+  --color-wa: var(--color-wa);
+  --color-wa-dark: var(--color-wa-dark);
+  --color-paper: var(--color-paper);
+  --color-line: var(--color-line);
+
+  --font-display: var(--font-space-grotesk);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-plex-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Custom marker-less FAQ toggle icon, driven purely by <details>/<summary> state so it stays crawlable without JS */
+details.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+details.faq-item summary {
+  list-style: none;
+}
+details.faq-item .faq-icon {
+  transition: transform 0.2s ease;
+}
+details.faq-item[open] .faq-icon {
+  transform: rotate(45deg);
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.route-dash {
+  stroke-dasharray: 6 8;
+}
