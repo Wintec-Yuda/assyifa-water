@@ -75,7 +75,7 @@ ganti dengan foto asli:
    ke repo tersebut.
 3. Vercel otomatis mendeteksi Next.js, tinggal klik Deploy.
 4. Domain sementara akan berbentuk `nama-project.vercel.app` — kamu bisa
-   ganti ke `assyifawater.vercel.app` lewat Project Settings → Domains.
+   ganti ke `assyifawater.biz.id` lewat Project Settings → Domains.
 
 ## Yang masih perlu kamu lengkapi
 

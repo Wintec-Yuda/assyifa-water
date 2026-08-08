@@ -50,7 +50,7 @@ export const business = {
     facebook: "",
     googleBusiness: "",
   },
-  siteUrl: "https://assyifawater.vercel.app",
+  siteUrl: "https://assyifawater.biz.id",
 };
 
 export type ProductCategory = {
