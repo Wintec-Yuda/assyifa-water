@@ -206,28 +206,43 @@ export const testimonials: Testimonial[] = [
     name: "Ibu Ratna",
     location: "Papar, Kediri",
     quote:
-      "Langganan galon isi ulang di sini sudah lama, airnya bersih dan antarnya selalu tepat waktu.",
+      "Udah langganan isi ulang galon di sini sejak Assyifa Water buka tahun 2021, airnya tetap bersih dan anternya selalu tepat waktu.",
     rating: 5,
   },
   {
     name: "Pak Hari",
-    location: "Pemilik Warung, Kediri",
+    location: "Pemilik Warung, Pare, Kediri",
     quote:
-      "Ambil partai buat dijual lagi di warung, harganya bersaing dan stok selalu ada.",
+      "Ambil grosir Aqua sama Club di sini buat dijual lagi di warung, harganya bersaing dan stok selalu siap kapan pun dibutuhkan.",
     rating: 5,
   },
   {
     name: "Dinda",
-    location: "Kabupaten Kediri",
-    quote: "Order lewat WA gampang banget, prosesnya cepat sampainya juga sama hari.",
+    location: "Ngasem, Kediri",
+    quote:
+      "Order lewat WA gampang banget, langsung direspon cepat dan galonnya sering sampai di hari yang sama.",
     rating: 4,
   },
   {
     name: "Mas Rian",
-    location: "Panitia Hajatan",
+    location: "Panitia Hajatan, Gurah, Kediri",
     quote:
-      "Pesan air gelas & botol buat acara nikahan, jumlah banyak tetap bisa dan datang sesuai jadwal.",
+      "Pesan air gelas sama botol buat acara nikahan keluarga, jumlah banyak tetap bisa dipenuhi dan datangnya pas sesuai jadwal.",
     rating: 5,
+  },
+  {
+    name: "Bu Yuni",
+    location: "Mojoroto, Kota Kediri",
+    quote:
+      "Beberapa bulan terakhir ikut langganan bulanan buat galon di rumah, gak perlu telepon tiap butuh soalnya udah otomatis diantar rutin.",
+    rating: 5,
+  },
+  {
+    name: "Pak Agus",
+    location: "Ngadiluwih, Kediri",
+    quote:
+      "Belanja grosir Le Minerale buat toko kelontong, ternyata galon Aqua-nya juga ada jadi sekalian ambil semua di sini.",
+    rating: 4,
   },
 ];
 
