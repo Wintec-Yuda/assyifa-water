@@ -77,8 +77,8 @@ export default function WhyUs() {
                 <p className="font-display text-sm font-semibold text-ink">
                   Sertifikat Depot Air Minum
                 </p>
-                <p className="text-xs text-ink-soft">
-                  Gambar sertifikat contoh — ganti dengan foto sertifikat asli di komponen ini.
+                <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">
+                  {business.certificationLabel}
                 </p>
               </div>
             </div>
