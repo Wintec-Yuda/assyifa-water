@@ -13,8 +13,9 @@ import post2 from "./tips-memilih-air-minum-aman-untuk-keluarga";
 import post3 from "./kapan-waktu-tepat-ganti-cuci-galon";
 import post4 from "./langganan-isi-ulang-galon-kediri";
 import post5 from "./pentingnya-air-untuk-kehidupan";
+import post6 from "./langganan-isi-ulang-galon-murah-toko-perumahan-kantor";
 
-export const allPosts: BlogPost[] = [post1, post2, post3, post4, post5].sort(
+export const allPosts: BlogPost[] = [post1, post2, post3, post4, post5, post6].sort(
   (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
 );
 
